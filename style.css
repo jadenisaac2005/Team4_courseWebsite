@@ -1,0 +1,75 @@
+/* style.css */
+
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #2d3e50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #1a2533;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #ffb347;
+}
+
+/* Main content styles */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+/* Footer styles */
+footer {
+    background-color: #2d3e50;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+    nav a {
+        margin: 0 8px;
+        font-size: 14px;
+    }
+}
